@@ -1,0 +1,111 @@
+@import "../../vars.css";
+
+.card {
+  background-color: #0A4D49;
+  border-radius: 45px;
+  box-shadow: 0px 16px 10px rgba(0, 0, 0, 0.4), 0px 16px 14px rgba(0, 0, 0, .25) inset;
+  padding: 30px;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+.info {
+  min-height: 50%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: var(--font-roboto);
+}
+
+.dates {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--font-roboto);
+}
+
+.content {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: var(--font-noto);
+  min-height: 125px;
+}
+
+.skills {
+  min-height: 50%;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillsTitle {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: var(--font-roboto);
+  margin-top: 20px;
+}
+
+.skillSlider {
+  height: 220px;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skill {
+  flex-shrink: 0;
+  flex-flow: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillImageContainer {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--color-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.skillImage {
+  width: 75px;
+}
+
+.skillTitle {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .dates {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .content {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .skillsTitle {
+    font-size: 20px;
+  }
+
+  .skillTitle {
+    font-size: 20px;
+  }
+}

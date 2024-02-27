@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --color-text: #fff;
+  --color-primary: #57BCB6;
+  --color-secondary: #1C7C78;
+  --color-dark: #042D2B;
+  --color-bg: #000D0C;
+  --color-navBar: #000;
+
+  /* Icon Highlight */
+  .iconHighlight {
+    filter: 
+      brightness(60%)
+      sepia(100%)
+      hue-rotate(135deg)
+      saturate(400%)
+      drop-shadow(0px 0px 10px #0167BA);
+  }
+
+  hr {
+    width: 220px;
+  }
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+  --font-noto: "Noto-sans-jp";
+}

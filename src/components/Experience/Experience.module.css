@@ -1,0 +1,66 @@
+@import "../../vars.css";
+
+.title {
+  color: var(--color-text);
+  font-family: var(--font-roboto);
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.container {
+  min-height: 1024px;
+  width: 90%;
+  color: var(--color-text);
+  padding-top: 64px;
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  max-height: 791px;
+}
+
+.cardBtn {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  border: 1px solid #00DADA;
+  margin: 5px;
+  z-index: 2;
+}
+
+.cardCarousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.carouselInner {
+  transition: transform 1s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .cardBtn{
+    position: absolute;
+  }
+  .cardBtnR{
+    right: 0%;
+  }
+  .cardBtnL{
+    left: 0%;
+  }
+}

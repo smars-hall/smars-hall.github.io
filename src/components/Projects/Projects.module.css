@@ -1,0 +1,32 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  width: 90%;
+}
+
+.title {
+  font-family: var(--font-roboto);
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    padding-right: 10%;
+  }
+}

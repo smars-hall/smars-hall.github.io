@@ -1,0 +1,174 @@
+[
+  {
+    "role": "Overview",
+    "organization": "",
+    "startDate": "",
+    "endDate": "",
+    "experiences": "A culmination of the skills I have studied, sorted alphabetically. 3.5 years professionally, 6 years in education.",
+    "roleJP": "概要",
+    "organizationJP": "",
+    "startDateJP": "",
+    "endDateJP": "",
+    "experiencesJP": "私が学んだすべてのスキルをアルファベット順にまとめた集大成。 専門職として3年半、教育で6年。",
+    "skills": [
+      {
+        "title": "Ada",
+        "imageSrc": "skills/ada.png"
+      },
+      {
+        "title": "C",
+        "imageSrc": "skills/c.png"
+      },
+      {
+        "title": "C++",
+        "imageSrc": "skills/c++.png"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+      },
+      {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png"
+      },
+      {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+      },
+      {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+      },
+      {
+        "title": "JS",
+        "imageSrc": "skills/js.png"
+      },
+      {
+        "title": "Windows API",
+        "imageSrc": "skills/microsoft.png"
+      },
+      {
+        "title": "mongoDB",
+        "imageSrc": "skills/mongodb.png"
+      },
+      {
+        "title": "mySQL",
+        "imageSrc": "skills/mysql.png"
+      },
+      {
+        "title": "PHP",
+        "imageSrc": "skills/php.png"
+      },
+      {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+      },
+      {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+      }
+    ]
+  },
+  {
+    "role": "Software Engineer",
+    "organization": "Humming Heads",
+    "startDate": "June 2019",
+    "endDate": "March 2023",
+    "experiences": "Focused on file security, network programming, driver programming, and GUI for cybersecurity software targeting Microsoft applications and OS. Notable operations included: researching and fixing bugs, researching software compatibility, updating legacy code, and participating in team projects for new features.",
+    "roleJP": "研究開発部の研究員",
+    "organizationJP": "ハミングヘッズ株式会社",
+    "startDateJP": "2019年6月",
+    "endDateJP": "2023年3月",
+    "experiencesJP": "MicrosoftのアプリとOSを対象としたサイバーセキュリティソフトのファイルセキュリティ、ネットワークプログラミング、ドライバー開発、およびGUIに重点を置いていました。主な業務には、障害の調査と修正、他のソフトに対応の調査、レガシーコードの更新、チームとして新機能の研究と開発。",
+    "skills": [
+      {
+        "title": "C",
+        "imageSrc": "skills/c.png"
+      },
+      {
+        "title": "C++",
+        "imageSrc": "skills/c++.png"
+      },
+      {
+        "title": "Windows API",
+        "imageSrc": "skills/microsoft.png"
+      }
+    ]
+  },
+  {
+    "role": "Peer Tutor",
+    "organization": "Truman State University",
+    "startDate": "August 2014",
+    "endDate": "May 2016",
+    "experiences": "I tutored the entry-level Computer Science courses at my university while enrolled, primarily conducting one-to-one tutoring but also occasionally teaching small groups.",
+    "roleJP": "ピアチューター",
+    "organizationJP": "トルーマン州立大学",
+    "startDateJP": "2014年8月",
+    "endDateJP": "2016年5月",
+    "experiencesJP": "大学で初級のコンピューターサイエンス授業の家庭教師をしていました。主に1対1の個別指導を行っていましたが、少人数のグループを教えることもありました。",
+    "skills": [
+      {
+        "title": "Ada",
+        "imageSrc": "skills/ada.png"
+      },
+      {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+      }
+    ]
+  },
+  {
+    "role": "B.S. in Computer Science",
+    "organization": "Truman State University",
+    "startDate": "August 2013",
+    "endDate": "May 2019",
+    "experiences": "I graduated with Cum Laude status and was honored in the Vice President for Academic Affairs List. Notable CS courses taken: Internet Programming, Compilers, Database Systems, Computer Graphics, Artificial Intelligence.",
+    "roleJP": "コンピューターサイエンスの理学士号",
+    "organizationJP": "トルーマン州立大学",
+    "startDateJP": "2013年8月",
+    "endDateJP": "2019年5月",
+    "experiencesJP": "優秀な成績で卒業し、学務担当副学長リストに選出されました。 受講した主なCS授業: インターネット プログラミング、コンパイラ、データベース システム、コンピュータ グラフィックス、AI。",
+    "skills": [
+      {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+      },
+      {
+        "title": "Ada",
+        "imageSrc": "skills/ada.png"
+      },
+      {
+        "title": "C++",
+        "imageSrc": "skills/c++.png"
+      },
+      {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+      },
+      {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+      },
+      {
+        "title": "JS",
+        "imageSrc": "skills/js.png"
+      },
+      {
+        "title": "PHP",
+        "imageSrc": "skills/php.png"
+      },
+      {
+        "title": "mySQL",
+        "imageSrc": "skills/mysql.png"
+      },
+      {
+        "title": "mongoDB",
+        "imageSrc": "skills/mongodb.png"
+      },
+      {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+      }
+    ]
+  }
+]

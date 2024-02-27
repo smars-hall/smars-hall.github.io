@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Web Portfolio",
+    "titleJP": "ウェブポートフォリオ",
+    "videoSrc": "projects/portfolio_vid.mp4",
+    "description": "This is a web portfolio to introduce myself as well as learn React.js and Figma",
+    "descriptionJP": "このプロジェクトは私の自己紹介です。さらに、React.jsとFigmaを学ぶためにプロジェクトです。",
+    "skills": ["React", "Figma", "JS", "HTML/CSS"],
+    "demo": "https://smars-hall.github.io/",
+    "source": "https://github.com/smars-hall/Portfolio"
+  }
+]
