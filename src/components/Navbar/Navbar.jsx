@@ -6,18 +6,23 @@ import { getAssetUrl } from "../../utils";
 export const Navbar = ({japanese, setJapanese, nav}) => {
   const [visible, setVisible] = useState(null);
 
+  const isMobile = window.innerWidth <= 760;
+
   return (
-    <nav className={`${styles.navbar} ${visible != null && (visible ? styles.openNavAnimation : styles.closeNavAnimation)}`}>
+    <nav 
+      className={`${styles.navbar} 
+                  ${visible === null && isMobile ? styles.closeNavAnimation : "" }
+                  ${visible != null && (visible ? styles.openNavAnimation : styles.closeNavAnimation)}`}>
       <div className={styles.expandBtn}>
         <img
           className={styles.iconHighlight}
           src={
-            visible === false
+            (visible === false) || (visible === null && isMobile)
               ? getAssetUrl("directional/right_arrow.png")
               : getAssetUrl("directional/left_arrow.png")
           }
           alt="expand-button"
-          onClick={() => setVisible(visible === null ? false : !visible)}
+          onClick={() => setVisible(visible === null ? (isMobile ? true : false ) : !visible)}
         />
       </div>
       
